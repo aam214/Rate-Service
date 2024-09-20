@@ -1,5 +1,4 @@
 body{
-
   background-image: url(waiter.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -9,12 +8,19 @@ body{
 .container{
   margin-top: 280px;
 }
+.title{
+  color:rgb(0, 138, 92);
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+
+  font-size: 60px;
+}
 .rate{
   margin: 0 auto;
   margin-top: 800px;
   display: block;
   background-color: rgb(255, 255, 255);
-  max-width: 600px;
+  max-width: 700px;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0,0,0,.3);
   padding: 50px;
@@ -28,8 +34,9 @@ body{
   height: 70px; 
   top: 28%;
   left: 50%;
-background-color: rgb(243, 243, 104);
+background-color: rgb(238, 238, 58);
   overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,.3);
   border-radius: 80%;
   transform: translateX(-50%);
   display: flex;
@@ -46,10 +53,11 @@ background-color: rgb(243, 243, 104);
 .fa-star {
   color: rgb(201, 201, 201);
   cursor: pointer;
+
 }
 
 .fa-star.active {
-  color:goldenrod;
+  color:rgb(235, 204, 31);
 }
 @media(max-width:500px){
   body{
@@ -60,10 +68,7 @@ background-color: rgb(243, 243, 104);
 .rate{
   max-width: 500px;
 }
-.smiley-container{
-  font-size: 40px;
-}
-.star-rating{
-  font-size: 37px;
+.fa-star{
+  font-size: 35px;
 }
 }
