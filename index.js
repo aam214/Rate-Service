@@ -1,5 +1,6 @@
 const starsRating = document.querySelectorAll(".fa-star");
 const emojisFace = document.querySelectorAll(".fa-regular");
+const changeColors = ["red", "orange", "yellow", "lightseagreen", "green"];
 
 starsRating.forEach((starRating, index) => {
 starRating.addEventListener("click", () => {
@@ -23,5 +24,7 @@ function showResult(index) {
 emojisFace.forEach((emojiFace) => {
 emojiFace.style.transform = 
 `translateX(-${index * 72}px)`;
+
+emojiFace.style.color = changeColors[index];
 });
 }

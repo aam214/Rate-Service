@@ -34,9 +34,9 @@ body{
   height: 70px; 
   top: 28%;
   left: 50%;
-  background-color: rgb(238, 238, 58);
-  box-shadow: 0 4px 8px rgba(0,0,0,.3);
-  border-radius: 80%;
+  box-shadow: 0 3px 7px rgba(0,0,0,.2);
+  border-radius:50px;
+  color: rgba(255, 217, 0, 0.664);
   overflow: hidden;
   transform: translateX(-50%);
   display: flex;
