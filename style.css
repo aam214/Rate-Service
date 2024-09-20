@@ -34,10 +34,10 @@ body{
   height: 70px; 
   top: 28%;
   left: 50%;
-background-color: rgb(238, 238, 58);
-  overflow: hidden;
+  background-color: rgb(238, 238, 58);
   box-shadow: 0 4px 8px rgba(0,0,0,.3);
   border-radius: 80%;
+  overflow: hidden;
   transform: translateX(-50%);
   display: flex;
 }
@@ -45,10 +45,9 @@ background-color: rgb(238, 238, 58);
   font-size: 47px;
   margin-top: 180px;
 }
-.far{
+.fa-regular{
   margin: 1px;
-  transform: translateX(0);
-  transition: transform 0.2s;
+  transform: translate(0);
 }
 .fa-star {
   color: rgb(201, 201, 201);

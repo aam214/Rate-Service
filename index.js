@@ -1,5 +1,5 @@
 const starsRating = document.querySelectorAll(".fa-star");
-
+const emojisFace = document.querySelectorAll(".fa-regular");
 
 starsRating.forEach((starRating, index) => {
 starRating.addEventListener("click", () => {
@@ -18,5 +18,10 @@ function showResult(index) {
       starRating.classList.remove("active");
     }
   });
-}
 
+
+emojisFace.forEach((emojiFace) => {
+emojiFace.style.transform = 
+`translateX(-${index * 72}px)`;
+});
+}
