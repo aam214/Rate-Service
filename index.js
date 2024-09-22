@@ -4,8 +4,6 @@ const changeColors = ["red", "orange", "yellow", "lightseagreen", "green"];
 
 starsRating.forEach((starRating, index) => {
 starRating.addEventListener("click", () => {
-console.log("clicked", index);
-
 showResult(index);
   });
 });
