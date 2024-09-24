@@ -6,7 +6,8 @@ body{
   height: 100vh;
 }
 .container{
-  margin-top: 280px;
+  margin-top: 270px;
+  opacity: 0.98;
 }
 .title{
   color:rgb(0, 138, 92);
@@ -19,7 +20,7 @@ body{
   margin: 0 auto;
   margin-top: 800px;
   display: block;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(245, 245, 247);
   max-width: 700px;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0,0,0,.3);
@@ -33,6 +34,7 @@ body{
   width: 70px;
   height: 70px; 
   top: 28%;
+ 
   left: 50%;
   box-shadow: 0 3px 7px rgba(0,0,0,.2);
   border-radius:50px;
